@@ -64,3 +64,15 @@ ul{
   background-color: rgb(17, 172, 17); 
   margin: 5px 5px; 
 }
+.status{
+  font-size: 30px;
+  font-family: cursive;
+  font-weight: bold;
+}
+.button{
+  color: #fff;
+  cursor: pointer;
+  background-color:yellowgreen;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
