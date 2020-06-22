@@ -49,7 +49,7 @@ export default class Game extends Component
             const desc = move?'Go to step ' + move:'Start Game';
             return(
                 <li key={move}>
-                    <button onClick={()=>{this.jumpTo(move)}}>
+                    <button class="button" onClick={()=>{this.jumpTo(move)}}>
                        <div className="info">
                        {desc}
                         </div> 
@@ -74,7 +74,7 @@ export default class Game extends Component
                 squares={current.squares}/>
             </div>
             <div className="game-info">
-                <div>{status}</div>
+                <div class="status">{status}</div>
                 <ul>{moves}</ul>
             </div>
         </div>
